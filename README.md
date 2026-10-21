@@ -13,7 +13,7 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
-| 1 | | | @ | |
+| 1 | 13020240222 | Ashfy Nur Raihana |  | |
 | 2 | | | @ | |
 | 3 | | | @ | |
 | 4 | | | @ | |
