@@ -4,19 +4,19 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 
 | Keterangan | Isi |
 |---|---|
-| Kelompok | Bagian [I / II / III] – Kelompok [XX] |
-| Subsistem | [salin dari tabel 2.2 pada dokumen tugas] |
-| Layanan inti | [salin dari tabel 2.2 pada dokumen tugas] |
-| Perwakilan kelompok | [nama, stambuk] |
+| Kelompok | Bagian II – Kelompok 05 |
+| Subsistem | Assignment & Assessment |
+| Layanan inti | Layanan KKN Tematik (Membangun Desa): pendaftaran, penempatan desa, bimbingan dosen, laporan kegiatan, dan penilaian |
+| Perwakilan kelompok | Ashfy Nur Raihana, 13020240222 |
 
 ## Anggota
 
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
-| 1 | 13020240222 | Ashfy Nur Raihana | @ | |
-| 2 | 13020240235 | Eka Putri Aulia | @ | |
-| 3 | 13020240325 | Siti Mutiah Nurhaliza | @ | |
-| 4 | 13020240241 | Nabila Sinta Salsabila | @ | |
+| 1 | 13020240222 | Ashfy Nur Raihana | @Hanaa-fy24 | |
+| 2 | 13020240235 | Eka Putri Aulia | @EkaPutriAulia | |
+| 3 | 13020240325 | Siti Mutiah Nurhaliza | @nabilasinta995-ai | |
+| 4 | 13020240241 | Nabila Sinta Salsabila | @Muthee26 | |
 
 ## Peta berkas dan penanggung jawab
 
