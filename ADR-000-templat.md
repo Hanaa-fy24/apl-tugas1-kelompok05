@@ -2,9 +2,9 @@
 
 ## ADR-001: Penerapan Arsitektur Modular pada Layanan KKN Tematik
 
-- **Status:** Diterima
+- **Status:** Diterima (Accepted)
 - **Tanggal:** 31-10-2026
-- **Pengambil keputusan:** Kelompok II-5
+- **Pengambil keputusan:** Kelompok II-5 (Ashfy Nur Raihana, Eka Putri Aulia, Nabila Sinta Salsabila, Siti Mutiah Nurhaliza)
 
 ### Context
 
@@ -53,9 +53,9 @@ Keputusan ini dipastikan melalui pemeriksaan pembagian tanggung jawab setiap mod
 
 ## ADR-002: Penerapan Role-Based Access Control (RBAC) pada Layanan KKN Tematik
 
-- **Status:** Diterima
+- **Status:** Diterima (Accepted)
 - **Tanggal:** 31-10-2026
-- **Pengambil keputusan:** Kelompok II-5
+- **Pengambil keputusan:** Kelompok II-5 (Ashfy Nur Raihana, Eka Putri Aulia, Nabila Sinta Salsabila, Siti Mutiah Nurhaliza)
 
 ### Context
 
