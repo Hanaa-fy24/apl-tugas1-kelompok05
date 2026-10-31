@@ -9,27 +9,25 @@ Karakteristik arsitektur merupakan aspek kualitas atau kebutuhan teknis yang mem
 Berikut adalah 10 kandidat karakteristik arsitektur yang dapat dipertimbangkan dalam perancangan layanan KKN Tematik.
 
 **Tabel 1. Daftar Kandidat Karakteristik Arsitektur Layanan KKN Tematik**
-| No. | Karakteristik | Kategori | Sifat | Alasan |
+| Karakteristik | Kategori | Sifat | Atribut terukur | ISO/IEC 25010 |
 |---|---|---|---|---|
-| 1 | Keamanan (Security) | Lintas sektor | Eksplisit | Data pribadi mahasiswa dan nilai perlu dilindungi. Setiap pengguna harus memiliki hak akses sesuai perannya. |
-| 2 | Integritas Data (Data Integrity) | Lintas sektor | Implisit | Data pendaftaran, kelompok, penempatan, laporan, dan nilai harus konsisten serta tidak mengalami kesalahan atau perubahan tanpa izin. |
-| 3 | Keandalan (Reliability) | Operasional | Implisit | Sistem diharapkan dapat menjalankan proses KKN dengan baik dan meminimalkan kegagalan ketika digunakan. |
-| 4 | Kinerja (Performance) | Operasional | Implisit | Sistem perlu memberikan respons yang cukup cepat ketika pengguna membuka informasi, mengunggah laporan, atau mengakses nilai. |
-| 5 | Kemudahan Penggunaan (Usability) | Operasional | Eksplisit | Informasi KKN diharapkan tersedia secara terpusat sehingga mahasiswa, DPL, dan pengelola lebih mudah mengakses informasi yang dibutuhkan. |
-| 6 | Ketersediaan (Availability) | Operasional | Implisit | Informasi jadwal, penempatan, bimbingan, dan laporan perlu dapat diakses ketika dibutuhkan oleh pengguna. |
-| 7 | Kemudahan Pemeliharaan (Maintainability) | Struktural | Implisit | Sistem perlu dirancang agar lebih mudah diperbaiki dan diperbarui apabila terdapat perubahan proses atau kebutuhan KKN. |
-| 8 | Kemudahan Pengembangan (Modifiability) | Struktural | Implisit | Sistem perlu memungkinkan penyesuaian fitur, misalnya perubahan aturan pendaftaran, pembagian kelompok, atau format laporan. |
-| 9 | Interoperabilitas (Interoperability) | Struktural | Implisit | Sistem mungkin perlu bertukar data dengan sistem akademik kampus atau layanan lain yang berkaitan, sesuai kebutuhan integrasi yang ditetapkan. |
-| 10 | Auditabilitas (Auditability) | Lintas sektor | Implisit | Aktivitas penting seperti verifikasi pendaftaran, perubahan penempatan, persetujuan laporan, dan penilaian perlu dapat ditelusuri. |
+| Keamanan (Security) | Lintas sektor | Implisit | 100% akses terhadap data sensitif harus melalui autentikasi dan pemeriksaan hak akses. Seluruh aktivitas penting yang ditetapkan harus tercatat dalam log dan diperiksa melalui pengujian. | Security |
+| Integritas Data (Data Integrity) | Lintas sektor | Implisit | 100% data pendaftaran, kelompok, penempatan, dan penilaian harus melewati validasi sebelum disimpan. Pengujian dilakukan menggunakan data valid dan tidak valid. | Security |
+| Keandalan (Reliability) | Operasional | Implisit | Minimal 99% transaksi utama yang diuji harus selesai tanpa kegagalan pada skenario pengujian yang ditetapkan. | Reliability |
+| Kinerja (Performance) | Operasional | Implisit | Minimal 95% permintaan halaman utama selesai dalam waktu kurang dari 3 detik saat diuji dengan 100 pengguna bersamaan. | Performance efficiency |
+| Kemudahan Penggunaan (Usability) | Operasional | Implisit | Minimal 90% pengguna uji dapat menyelesaikan tugas utama tanpa bantuan. | Usability |
+| Ketersediaan (Availability) | Operasional | Implisit | Layanan memiliki target ketersediaan minimal 99% selama periode operasional yang ditetapkan, berdasarkan hasil pemantauan. | Reliability |
+| Kemudahan Pemeliharaan (Maintainability) | Struktural | Implisit | Perubahan aturan KKN dapat dilakukan tanpa mengubah lebih dari satu modul lain yang tidak terkait, berdasarkan skenario pengujian yang ditetapkan. | Maintainability |
+| Kemudahan Pengembangan (Modifiability) | Struktural | Implisit | Penambahan satu fitur baru dapat dilakukan tanpa mengubah modul yang tidak terkait, berdasarkan skenario pengujian yang ditetapkan. | Maintainability |
+| Interoperabilitas (Interoperability) | Struktural | Implisit | 100% data yang dipertukarkan dengan sistem lain dalam skenario integrasi harus sesuai dengan format dan aturan validasi yang disepakati. | Compatibility |
+| Auditabilitas (Auditability) | Lintas sektor | Implisit | 100% perubahan penting pada penempatan dan penilaian yang diuji harus mencatat pelaku, waktu, dan jenis perubahan. | Security |
 
 ### Keterangan Kategori
-
 - **Operasional:** Berkaitan dengan bagaimana sistem berjalan dan digunakan.
 - **Struktural:** Berkaitan dengan bagaimana sistem disusun, dikembangkan, dan dipelihara.
 - **Lintas sektor:** Berkaitan dengan aspek yang memengaruhi beberapa bagian sistem sekaligus.
 
 ### Keterangan Sifat
-
 - **Eksplisit:** Kebutuhan disebutkan secara langsung oleh pengguna atau sumber informasi.
 - **Implisit:** Kebutuhan tidak disebutkan secara langsung, tetapi dapat disimpulkan dari proses dan kebutuhan sistem.
 
@@ -73,12 +71,20 @@ Berikut hasil pengujiannya:
 **Tabel 3. Hasil Pengujian Tiga Karakteristik Pendorong Arsitektur**
 | Karakteristik | Berpengaruh terhadap desain | Kebutuhan nonfungsional | Penting bagi keberhasilan | Hasil |
 |---|---|---|---|---|
-| Keamanan | Ya | Ya | Ya | Lolos |
-| Integritas Data | Ya | Ya | Ya | Lolos |
-| Keandalan | Ya | Ya | Ya | Lolos |
+| Keamanan (Security) | Ya | Ya | Ya | Lolos |
+| Integritas Data (Data Integrity) | Ya | Ya | Ya | Lolos |
+| Keandalan (Reliability) | Ya | Ya | Ya | Lolos |
+
+Berdasarkan hasil pengujian tersebut, ketiga karakteristik dinyatakan lolos karena memiliki pengaruh terhadap keputusan desain, termasuk dalam kebutuhan kualitas sistem, dan penting bagi keberhasilan layanan KKN Tematik.
+
+Hasil pengujian ini merupakan penilaian berdasarkan analisis rancangan. Hasil tersebut tidak berarti bahwa sistem sudah terbukti memenuhi target keamanan, integritas data, dan keandalan melalui pengujian teknis.
 
 ## 4. Kesimpulan
 
-Berdasarkan hasil identifikasi dan klasifikasi, terdapat 10 kandidat karakteristik arsitektur yang dapat dipertimbangkan dalam perancangan layanan KKN Tematik. Dari seluruh kandidat tersebut, dipilih tiga karakteristik utama, yaitu keamanan, integritas data, dan keandalan.
+Berdasarkan identifikasi dan klasifikasi yang telah dilakukan, terdapat 10 kandidat karakteristik arsitektur yang dapat dipertimbangkan dalam perancangan layanan KKN Tematik. Kandidat tersebut mencakup keamanan, integritas data, keandalan, kinerja, kemudahan penggunaan, ketersediaan, kemudahan pemeliharaan, kemudahan pengembangan, interoperabilitas, dan auditabilitas.
 
-Ketiga karakteristik tersebut diprioritaskan karena memiliki pengaruh terhadap keputusan desain, berkaitan dengan kebutuhan nonfungsional, dan penting bagi keberhasilan layanan KKN Tematik. Hasil ini juga sejalan dengan ASR dan ADR pada Bagian A, khususnya mengenai perlindungan data, konsistensi informasi, serta pengelolaan proses KKN yang terintegrasi.
+Dari 10 kandidat tersebut, dipilih tiga karakteristik utama sebagai pendorong arsitektur, yaitu keamanan, integritas data, dan keandalan. Keamanan diprioritaskan untuk melindungi informasi dan membatasi akses pengguna. Integritas data diprioritaskan untuk menjaga konsistensi informasi pada setiap proses KKN. Keandalan diprioritaskan untuk mendukung pelaksanaan proses utama dan meminimalkan kegagalan layanan.
+
+Ketiga karakteristik tersebut dinilai berpengaruh terhadap keputusan desain, berkaitan dengan kebutuhan nonfungsional, dan penting bagi keberhasilan layanan KKN Tematik. Oleh karena itu, ketiganya dapat dijadikan dasar dalam menentukan keputusan arsitektur dan menyusun keputusan arsitektur yang terdokumentasi pada bagian ADR.
+
+Target atribut terukur yang dicantumkan dalam tabel merupakan usulan awal yang perlu disepakati dan diverifikasi melalui pengujian. Dengan demikian, hasil identifikasi ini menjadi dasar untuk melanjutkan perancangan arsitektur layanan KKN Tematik agar lebih aman, konsisten, dan andal.
