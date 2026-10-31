@@ -1,6 +1,8 @@
 # B4. Pemetaan ke ISO/IEC 25010
 
-Tabel di bawah memetakan karakteristik pendorong (*ASR*) dari hasil wawancara Layanan KKN Tematik UMI ke 8 karakteristik mutu produk berdasarkan standar **ISO/IEC 25010**.
+
+
+Tabel berikut memetakan karakteristik pendorong (ASR) dari hasil wawancara ke 8 karakteristik kualitas mutu produk standar ISO/IEC 25010:
 
 ---
 
