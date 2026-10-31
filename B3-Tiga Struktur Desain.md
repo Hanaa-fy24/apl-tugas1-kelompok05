@@ -1,6 +1,6 @@
 # B3. Tiga Struktur Desain Arsitektur
 
-Dokumen ini menjelaskan tiga diagram struktur desain arsitektur perangkat lunak untuk subsistem Layanan KKN Tematik (Membangun Desa) Universitas Muslim Indonesia.
+Penjelasan untuk 3 diagram subsistem Sistem Informasi KKN Tematik:
 
 ---
 
