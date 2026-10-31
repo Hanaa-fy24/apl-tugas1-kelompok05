@@ -1,6 +1,6 @@
 # B2. Atribut Kualitas yang Terukur
 
-Dokumen ini berisi spesifikasi atribut kualitas yang terukur untuk 3 karakteristik pendorong (*Architecturally Significant Requirements* / ASR) pada Sistem Informasi Layanan KKN Tematik (Membangun Desa) Universitas Muslim Indonesia.
+Untuk 3 karakteristik pendorong (Architecturally Significant Requirements / ASR), berikut adalah ukuran yang jelas mencakup angka target, kondisi pengukuran, dan cara mengujinya:
 
 ---
 
