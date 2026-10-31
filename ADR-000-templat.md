@@ -1,5 +1,6 @@
-
 # ADR-001: Penerapan Arsitektur Modular untuk Integrasi Layanan KKN
+
+Penanggung jawab: [ Eka Putri Aulia ]
 
 - **Status:** Diterima (Accepted)
 - **Tanggal:** 31-10-2026
