@@ -1,5 +1,6 @@
-
 # A5. Keputusan Arsitektur dan Architecture Decision Record (ADR)
+
+Penanggung jawab: [ Eka Putri Aulia ]
 
 ## 1. Pengertian
 
