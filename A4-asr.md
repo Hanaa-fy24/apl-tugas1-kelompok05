@@ -69,7 +69,7 @@ Kebutuhan ini sangat memengaruhi arsitektur karena sistem membutuhkan basis data
 Dengan demikian, sistem dapat mengurangi risiko kesalahan pencatatan, data ganda, dan ketidaksesuaian informasi selama pelaksanaan KKN Tematik.
 
 ## 3. Ringkasan Kebutuhan Signifikan (ASR)
-
+**Tabel 1. Ringkasan Kebutuhan Signifikan Arsitektur pada Subsistem Assignment & Assessment**
 | Kode | Kebutuhan Signifikan | Jenis |
 |---|---|---|
 | ASR-01 | Integrasi pengelolaan proses layanan KKN | Fungsional |
