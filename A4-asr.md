@@ -1,5 +1,6 @@
-
 # A4. Kebutuhan Signifikan (Architecturally Significant Requirements/ASR)
+
+Penanggung jawab: [ Eka Putri Aulia ]
 
 ## 1. Pengertian
 
