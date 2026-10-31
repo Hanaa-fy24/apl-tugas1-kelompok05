@@ -1,5 +1,7 @@
 # B2. Atribut Kualitas yang Terukur
 
+Penanggung jawab: [Siti Mutiah Nurhaliza]
+
 Untuk 3 karakteristik pendorong (Architecturally Significant Requirements / ASR), berikut adalah ukuran yang jelas mencakup angka target, kondisi pengukuran, dan cara mengujinya:
 
 ---
