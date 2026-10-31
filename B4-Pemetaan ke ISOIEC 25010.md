@@ -1,6 +1,6 @@
 # B4. Pemetaan ke ISO/IEC 25010
 
-
+Penanggung jawab: [Siti Mutiah Nurhaliza]
 
 Tabel berikut memetakan karakteristik pendorong (ASR) dari hasil wawancara ke 8 karakteristik kualitas mutu produk standar ISO/IEC 25010:
 
