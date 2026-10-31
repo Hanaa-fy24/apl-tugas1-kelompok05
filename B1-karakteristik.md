@@ -8,6 +8,7 @@ Karakteristik arsitektur merupakan aspek kualitas atau kebutuhan teknis yang mem
 
 Berikut adalah 10 kandidat karakteristik arsitektur yang dapat dipertimbangkan dalam perancangan layanan KKN Tematik.
 
+**Tabel 1. Daftar Kandidat Karakteristik Arsitektur Layanan KKN Tematik**
 | No. | Karakteristik | Kategori | Sifat | Alasan |
 |---|---|---|---|---|
 | 1 | Keamanan (Security) | Lintas sektor | Eksplisit | Data pribadi mahasiswa dan nilai perlu dilindungi. Setiap pengguna harus memiliki hak akses sesuai perannya. |
@@ -60,6 +61,7 @@ Keandalan juga penting agar data dan proses yang sudah dilakukan pengguna tidak 
 
 Untuk memastikan ketiga karakteristik tersebut benar-benar penting bagi arsitektur, digunakan tiga ciri karakteristik arsitektur sebagai alat uji.
 
+**Tabel 2. Pengujian Tiga Karakteristik Pendorong Arsitektur**
 | Ciri Pengujian | Penjelasan |
 |---|---|
 | 1. Berpengaruh terhadap keputusan desain | Karakteristik tersebut memengaruhi cara sistem dirancang, misalnya pembagian modul, pengelolaan database, dan pengaturan hak akses. |
@@ -68,6 +70,7 @@ Untuk memastikan ketiga karakteristik tersebut benar-benar penting bagi arsitekt
 
 Berikut hasil pengujiannya:
 
+**Tabel 3. Hasil Pengujian Tiga Karakteristik Pendorong Arsitektur**
 | Karakteristik | Berpengaruh terhadap desain | Kebutuhan nonfungsional | Penting bagi keberhasilan | Hasil |
 |---|---|---|---|---|
 | Keamanan | Ya | Ya | Ya | Lolos |
