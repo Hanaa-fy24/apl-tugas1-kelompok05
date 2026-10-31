@@ -1,5 +1,7 @@
 # B3. Tiga Struktur Desain Arsitektur
 
+Penanggung jawab: [Siti Mutiah Nurhaliza]
+
 Penjelasan untuk 3 diagram subsistem Sistem Informasi KKN Tematik:
 
 ---
