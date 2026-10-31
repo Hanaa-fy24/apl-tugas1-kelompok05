@@ -39,6 +39,10 @@ Berdasarkan kebutuhan yang telah diidentifikasi pada bagian A4, berikut dua ADR 
 <td><strong>Compliance</strong></td>
 <td>Keputusan ini diterapkan dengan memastikan setiap modul memiliki fungsi dan tanggung jawab yang jelas sesuai dengan ruang lingkup layanan KKN.<br><br>Pengujian dilakukan terhadap setiap modul untuk memastikan proses pendaftaran, penempatan desa, bimbingan dosen, pengumpulan laporan, dan penilaian dapat berjalan sesuai fungsinya.<br><br>Selain itu, dilakukan pengujian integrasi untuk memastikan data dari satu modul dapat digunakan oleh modul lainnya secara tepat. Contohnya, data mahasiswa yang telah diverifikasi pada modul pendaftaran harus dapat digunakan dalam proses penempatan desa dan pembentukan kelompok.</td>
 </tr>
+<tr>
+<td><strong>Notes (Opsional)</strong></td>
+<td>Penulis: Kelompok II-5.<br>Tanggal: 31 Oktober 2026.<br>Penyetuju: Anggota Kelompok II-5 (Ashfy Nur Raihana, Eka Putri Aulia, Nabila Sinta Salsabila, Siti Mutiah Nurhaliza).</td>
+</tr>
 </table>
 
 ---
@@ -67,6 +71,10 @@ Berdasarkan kebutuhan yang telah diidentifikasi pada bagian A4, berikut dua ADR 
 <tr>
 <td><strong>Compliance</strong></td>
 <td>Keputusan ini diterapkan dengan memastikan setiap peran pengguna memiliki hak akses yang sesuai dengan tanggung jawabnya.<br><br>Pengujian dilakukan menggunakan beberapa akun dengan peran berbeda untuk memastikan mahasiswa, DPL, panitia KKN, dan pemerintah desa hanya dapat mengakses fitur sesuai dengan kewenangannya.<br><br>Sebagai contoh, dilakukan pengujian untuk memastikan mahasiswa tidak dapat melihat nilai mahasiswa lain, DPL tidak dapat mengubah data administrasi yang menjadi kewenangan panitia, dan pemerintah desa hanya dapat mengakses informasi serta penilaian yang berkaitan dengan wilayah penempatannya.<br><br>Selain itu, dilakukan pemeriksaan terhadap mekanisme autentikasi dan pencatatan aktivitas agar keamanan informasi dapat terjaga.</td>
+</tr>
+<tr>
+<td><strong>Notes (Opsional)</strong></td>
+<td>Penulis: Kelompok II-5.<br>Tanggal: 31 Oktober 2026.<br>Penyetuju: Anggota Kelompok II-5 (Ashfy Nur Raihana, Eka Putri Aulia, Nabila Sinta Salsabila, Siti Mutiah Nurhaliza).</td>
 </tr>
 </table>
 
