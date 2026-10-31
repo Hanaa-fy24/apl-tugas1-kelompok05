@@ -22,7 +22,7 @@ Catatan penilaian: *Power* dan *interest* diberi skala rendah, sedang, dan tingg
 
 Posisi setiap stakeholder pada Tabel 2.2 dipetakan ke dalam empat kuadran menurut kombinasi *power* dan *interest*.
 
-![Gambar 2.2. Peta power/interest stakeholder subsistem Assignment & Assessment KKN Tematik](diagram/peta-power-interest.png)
+![Gambar 2.2. Peta power/interest stakeholder subsistem Assignment & Assessment KKN Tematik](peta-power-interest.png)
 
 **Gambar 2.2. Peta power/interest stakeholder subsistem Assignment & Assessment KKN Tematik**
 
