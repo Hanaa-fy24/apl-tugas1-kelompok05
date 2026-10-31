@@ -1,5 +1,6 @@
-
 # B1. Identifikasi dan Klasifikasi Karakteristik Arsitektur
+
+Penanggung jawab: [ Eka Putri Aulia ]
 
 Karakteristik arsitektur merupakan aspek kualitas atau kebutuhan teknis yang memengaruhi bagaimana sebuah sistem dirancang dan dikembangkan. Pada layanan KKN Tematik, karakteristik arsitektur perlu diperhatikan agar sistem dapat mengelola data dan proses KKN dengan baik, aman, serta mudah digunakan oleh setiap pihak yang terlibat.
 
