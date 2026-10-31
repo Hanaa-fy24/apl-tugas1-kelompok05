@@ -1,8 +1,8 @@
 # Ringkasan Wawancara 01
 
 - **Tanggal:** 30 Oktober 2026
-- **Responden (peran saja):** Mahasiswa peserta KKN Tematik
-- **Pewawancara:** [Nama anggota]
+- **Responden (peran saja):** Mahasiswa peserta KKN Tematik Semester 7
+- **Pewawancara:** Anggota Kelompok II-5 (Ashfy Nur Raihana, Eka Putri Aulia, Nabila Sinta Salsabila, Siti Mutiah Nurhaliza)
 - **Layanan yang dibahas:** Layanan KKN Tematik (Membangun Desa) – Assignment & Assessment
 - **Status:** Hasil wawancara aktual
 
