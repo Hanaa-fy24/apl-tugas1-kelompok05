@@ -1,12 +1,14 @@
-# ADR-001: Penerapan Arsitektur Modular untuk Integrasi Layanan KKN
+# A5 – Architecture Decision Record (ADR) 
 
 Penanggung jawab: [ Eka Putri Aulia ]
 
-- **Status:** Diterima (Accepted)
-- **Tanggal:** 31-10-2026
-- **Pengambil keputusan:** [Nama anggota kelompok]
+## ADR-001: Penerapan Arsitektur Modular untuk Integrasi Layanan KKN
 
-## Context
+- **Status:** Diterima (Accepted)
+- **Tanggal:** 31 Oktober 2026
+- **Pengambil keputusan:** Anggota Kelompok II-5 (Ashfy Nur Raihana, Eka Putri Aulia, Nabila Sinta Salsabila, Siti Mutiah Nurhaliza)
+
+### Context
 
 Subsistem Assignment & Assessment memiliki lima proses utama yang saling berkaitan, yaitu pendaftaran peserta, penempatan desa, bimbingan dosen, pengumpulan laporan kegiatan, serta penilaian dan rekapitulasi nilai akhir.
 
@@ -18,7 +20,7 @@ Kondisi tersebut menunjukkan perlunya sistem yang dapat menghubungkan seluruh pr
 
 Kebutuhan tersebut berkaitan dengan ASR-01 (Integrasi Layanan KKN) dan ASR-03 (Integritas Data) pada A4, yang menekankan pentingnya keterhubungan proses serta konsistensi data pada setiap tahapan layanan KKN.
 
-## Decision
+### Decision
 
 Kami akan menerapkan arsitektur modular, yaitu pendekatan perancangan sistem dengan membagi layanan ke dalam beberapa modul berdasarkan fungsi masing-masing.
 
@@ -36,7 +38,7 @@ Modul yang dirancang meliputi:
 
 Setiap modul memiliki tanggung jawab masing-masing, tetapi tetap saling terhubung melalui data dan proses yang dibutuhkan oleh modul lainnya.
 
-## Consequences
+### Consequences
 
 Penerapan arsitektur modular memiliki beberapa dampak positif dan negatif yang perlu dipertimbangkan.
 
@@ -54,7 +56,7 @@ Penerapan arsitektur modular memiliki beberapa dampak positif dan negatif yang p
 - Kesalahan dalam komunikasi atau pertukaran data antar modul dapat mengganggu proses layanan lainnya.
 - Perancangan awal membutuhkan waktu lebih banyak untuk menentukan pembagian tanggung jawab setiap modul.
 
-## Compliance
+### Compliance
 
 Keputusan ini diterapkan dengan memastikan setiap modul memiliki fungsi dan tanggung jawab yang jelas sesuai dengan ruang lingkup layanan KKN.
 
@@ -64,13 +66,13 @@ Selain itu, dilakukan pengujian integrasi untuk memastikan data dari satu modul 
 
 ---
 
-# ADR-002: Penerapan Role-Based Access Control (RBAC) untuk Keamanan Data
+## ADR-002: Penerapan Role-Based Access Control (RBAC) untuk Keamanan Data
 
 - **Status:** Diterima (Accepted)
-- **Tanggal:** [DD-MM-2026]
-- **Pengambil keputusan:** [Nama anggota kelompok]
+- **Tanggal:** 31 Oktober 2026
+- **Pengambil keputusan:** Anggota Kelompok II-5 (Ashfy Nur Raihana, Eka Putri Aulia, Nabila Sinta Salsabila, Siti Mutiah Nurhaliza)
 
-## Context
+### Context
 
 Subsistem Assignment & Assessment melibatkan beberapa aktor, yaitu mahasiswa, Dosen Pembimbing Lapangan (DPL), panitia KKN, dan pemerintah desa. Setiap aktor memiliki tanggung jawab serta kebutuhan akses informasi yang berbeda.
 
@@ -80,7 +82,7 @@ Hal tersebut menunjukkan bahwa sistem membutuhkan mekanisme pengaturan hak akses
 
 Kebutuhan tersebut berkaitan dengan ASR-02 (Keamanan dan Hak Akses Pengguna) pada A4, yang menekankan perlindungan data serta pembatasan akses berdasarkan peran dan kewenangan pengguna.
 
-## Decision
+### Decision
 
 Kami akan menerapkan Role-Based Access Control (RBAC), yaitu mekanisme pengaturan hak akses berdasarkan peran pengguna.
 
@@ -96,7 +98,7 @@ Pembagian hak akses dirancang sebagai berikut:
 
 Selain pembagian hak akses, sistem juga akan menggunakan autentikasi untuk memastikan identitas pengguna serta pencatatan aktivitas untuk membantu menelusuri perubahan pada data penting.
 
-## Consequences
+### Consequences
 
 Penerapan RBAC memiliki beberapa dampak positif dan negatif sebagai berikut.
 
@@ -115,7 +117,7 @@ Penerapan RBAC memiliki beberapa dampak positif dan negatif sebagai berikut.
 - Kesalahan dalam pengaturan hak akses dapat menyebabkan pengguna tidak dapat mengakses fitur yang sebenarnya dibutuhkan.
 - Pengelola perlu melakukan pemeriksaan dan pemeliharaan hak akses secara berkala apabila terdapat perubahan tugas atau tanggung jawab pengguna.
 
-## Compliance
+### Compliance
 
 Keputusan ini diterapkan dengan memastikan setiap peran pengguna memiliki hak akses yang sesuai dengan tanggung jawabnya.
 
