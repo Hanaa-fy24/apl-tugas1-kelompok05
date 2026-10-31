@@ -1,6 +1,6 @@
 # A3. Batasan Sistem
 
-<!-- Penanggung jawab: [Ashfy Nur Raihana] -->
+Penanggung jawab: [Ashfy Nur Raihana]
 
 Batasan sistem adalah kondisi atau ketentuan yang tidak dapat diubah oleh tim perancang dan harus diterima sebagai pembatas dalam merancang arsitektur. Batasan pada bagian ini dikelompokkan ke dalam tiga kategori: **teknologi**, **bisnis**, dan **operasional**. Batasan diidentifikasi dari hasil wawancara dengan lima responden (R1 sampai R5) dan dari alur layanan KKN Tematik. Untuk setiap batasan dijelaskan dampaknya terhadap sistem dan arsitektur.
 
