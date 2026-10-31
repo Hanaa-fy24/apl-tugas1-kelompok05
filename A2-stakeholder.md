@@ -1,6 +1,6 @@
 # A2. Stakeholder dan Peta Power/Interest
 
-Penanggung Jawab [Ashfy Nur Raihana]
+Penanggung jawab: [Ashfy Nur Raihana]
 
 Stakeholder adalah pihak yang menggunakan, mengelola, memengaruhi, atau terdampak oleh subsistem Assignment & Assessment KKN Tematik. Identifikasi dilakukan dengan mengelompokkan pihak terkait ke dalam lima kelompok: **pengguna layanan**, **penyelenggara**, **pimpinan dan pembuat kebijakan**, **mitra eksternal**, serta **pengelola teknis dan sistem terkait**. Setiap stakeholder dinilai berdasarkan *power* (kemampuan memengaruhi keputusan sistem) dan *interest* (seberapa besar sistem memengaruhi pekerjaan atau kepentingannya).
 
