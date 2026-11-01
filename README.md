@@ -13,7 +13,7 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
-| 1 | 13020240222 | Ashfy Nur Raihana | @Hanaa-fy24 | |
+| 1 | 13020240222 | Ashfy Nur Raihana | @Hanaa-fy24 | BAB1, A1, A2, A3 |
 | 2 | 13020240235 | Eka Putri Aulia | @EkaPutriAulia | |
 | 3 | 13020240325 | Siti Mutiah Nurhaliza | @Muthee26 | |
 | 4 | 13020240241 | Nabila Sinta Salsabila | @nabilasinta995-ai | |
@@ -24,10 +24,10 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 
 | Kode | Berkas | Penanggung jawab | Status |
 |---|---|---|---|
-| BAB I | laporan/BAB1-pendahuluan.md | | Belum |
-| A1 | laporan/A1-konteks-arsitektur.md | | Belum |
-| A2 | laporan/A2-stakeholder.md | | Belum |
-| A3 | laporan/A3-batasan.md | | Belum |
+| BAB I | laporan/BAB1-pendahuluan.md | Ashfy Nur Raihana | Sudah |
+| A1 | laporan/A1-konteks-arsitektur.md | Ashfy Nur Raihana | Sudah |
+| A2 | laporan/A2-stakeholder.md | Ashfy Nur Raihana | Sudah |
+| A3 | laporan/A3-batasan.md | Ashfy Nur Raihana | Sudah |
 | A4 | laporan/A4-asr.md | | Belum |
 | A5 | laporan/A5-keputusan-arsitektur.md dan adr/ | | Belum |
 | B1 | laporan/B1-karakteristik.md | | Belum |
