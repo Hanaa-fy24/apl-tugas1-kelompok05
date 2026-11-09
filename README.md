@@ -16,7 +16,7 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 | 1 | 13020240222 | Ashfy Nur Raihana | @Hanaa-fy24 | BAB1, A1, A2, A3 |
 | 2 | 13020240235 | Eka Putri Aulia | @EkaPutriAulia | A4, A5, ADR-000 |
 | 3 | 13020240325 | Siti Mutiah Nurhaliza | @Muthee26 | B2, B3, B4 |
-| 4 | 13020240241 | Nabila Sinta Salsabila | @nabilasinta995-ai | |
+| 4 | 13020240241 | Nabila Sinta Salsabila | @nabilasinta995-ai | B5, BAB4, daftar-pustaka|
 
 ## Peta berkas dan penanggung jawab
 
