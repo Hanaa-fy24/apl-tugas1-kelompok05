@@ -156,7 +156,7 @@ Skenario disusun dengan enam komponen: *source, stimulu, environment, artifact, 
 
 ### 5.1 Diagram Konteks
 
-![](./media/image2.png)
+![](image2.png)
 
 **Gambar 5.1.** Diagram konteks Sistem Layanan KKN Tematik
 
@@ -173,7 +173,7 @@ Lima kelompok pengguna mengakses sistem lewat satu antarmuka web/PWA. Sistem han
 <tr class="odd">
 <td><p>
 
-![](./media/image3.png)
+![](image3.png)
 
 </p>
 <p><strong>Gambar 5.2.</strong> Arsitektur berlapis modular monolith dengan antrean asinkron</p></td>
@@ -190,13 +190,13 @@ Lima kelompok pengguna mengakses sistem lewat satu antarmuka web/PWA. Sistem han
 
 ### 5.3 Diagram UML
 
-![](./media/image4.png)
+![](image4.png)
 
 **Gambar 5.3.** Class diagram domain inti
 
 *Registration*, *Placement*, dan *Village* mendukung penempatan; *Logbook* mendukung skenario *offline* (S2); *FinalGrade* dan *AuditLog* mendukung keterlacakan nilai (S3). *PlacementService* dan *GradingService* mengatur proses penempatan dan finalisasi nilai.
 
-![](./media/image5.png)
+![](image5.png)
 
 **Gambar 5.4.** Sequence diagram finalisasi nilai (skenario S3)
 
